@@ -1,0 +1,82 @@
+<html lang="en" class="notranslate" translate="no">
+<head>
+  <meta name ="google" content="notranslate"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Covid -19</title>
+  <!-- materialize icons, css & js -->
+  <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link type="text/css" href="css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+   <script type="text/javascript" src="js/jQuery.js"></script>
+  <link rel="manifest" href="manifest.json">
+
+</head>
+<body class="grey lighten-4">
+
+  <!-- top nav -->
+  <nav class="z-depth-0">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="previous round"><img src="img/back_icon.png"></a>
+      <a href="#"><span>Covid-19</span> Tracker  </a>
+
+      <span class="right grey-text text-darken-1">
+        <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+      </span>
+    </div>
+  </nav>
+
+  <!-- side nav -->
+  <ul id="side-menu" class="sidenav side-menu">
+    <li><a class="subheader">Srikant Loric</a></li>
+
+    <li><a href="#" class="waves-effect">HELP DESK</a></li>
+        <li><a href="#" class="waves-effect">EMAIL: SRIKANTLORIC@GMAIL.COM</a></li>
+    <li><a href="#" class="waves-effect">Contact For Website Development</a></li>
+  </ul>
+
+  <div class="container">
+
+    <!--  Middle Content -->
+  <div class="heading">WORLD</div>
+
+   <div id="data_inside">
+  <div id="NewConfirmed"></div>
+  <div id="NewDeaths"></div>
+  <div id="NewRecovered"></div>
+  <div id="TotalConfirmed"></div>
+  
+  <div id="TotalDeaths"></div>
+  <div id="TotalRecovered"></div>
+<!-- middle content end here  -->
+
+<a class="waves-effect waves-light btn" id="btn_india">India</a>
+<a class="waves-effect waves-light btn" id="btn_jharkhand">Jharkhand</a>
+<a class="waves-effect waves-light btn" id="btn_world">World</a>
+<a class="waves-effect waves-light btn" id="btn_more">Click Here For More</a>
+</div>
+  </div><br>
+    <div id="loader">
+      <img src="img/ajax-loader.gif"></img>
+    </div>
+
+    <div>
+      <img src="img/nointernet.png" class="no_internet"></img>
+      <a class="waves-effect waves-light btn " id="btn_error">Reload</a>
+    </div>
+ 
+
+<br>
+
+<footer id="footer">
+  <div id="footer-content">Developer - Srikant loric</div>
+</footer>
+
+  <script src="js/ui.js"></script>
+
+</body>
+</html>

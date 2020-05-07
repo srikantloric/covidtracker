@@ -1,0 +1,199 @@
+/* colours */
+:root{
+  --primary: #FFE9D2;
+  --secondary: #FFE1C4;
+  --title: #FF8816;
+}
+
+
+
+/* layout styles */
+nav{
+  background: var(--primary);
+  border-bottom: 10px solid var(--secondary);
+  position: fixed;
+  margin: 0px;
+  top:0;
+}
+nav a{
+  text-transform: uppercase;
+  display: inline-block;
+  color: var(--title);
+  margin-top: -5px;
+  margin-left: 10px;
+
+}
+nav a span{
+  font-weight: bold;
+}
+nav .sidenav-trigger{
+  margin: 0;
+}
+
+
+
+
+.side-form button{
+  background: var(--title);
+  box-shadow: 1px 1px 3px rgba(90,90,90,0.2);
+}
+
+.heading{
+
+  margin-top:80px;
+  margin-bottom:20px;
+  text-align: center;
+  
+  
+  width: 100%;
+
+  font-family: 'Roboto', sans-serif;
+  border:2px solid #d66235;
+  color:white;
+  background: #f1b372;
+}
+
+  #footer {
+    position : fixed;
+    bottom : 0;
+
+    text-align:center;
+    width: 100%;
+    
+  }
+
+#footer-content {
+  background-color: #ffe9d2;
+  border: 1px solid #ffe1c4;
+  height: 32px; 
+  padding: 6px;
+  width: 100%;
+  color: var(--title);
+
+
+}
+
+.container{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 2px;
+  font-size: 20px;
+
+}
+
+#timeline{
+  color:#3a74bb;
+
+}
+
+#NewDeaths{
+  color:red;
+}
+#TotalDeaths{
+  color:red;
+}
+#TotalRecovered{
+  color:green;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+.round {
+    display: inline-block;
+
+
+
+}
+
+.round img{
+    position: fixed;
+    
+
+    height: 30px;
+    width: 30px;
+    top: 12;
+    left: 6;
+
+}
+
+#btn_more{
+  position: absolute;
+  visibility: hidden;
+ justify-content: center;
+  display: flex;
+  top:350;
+  left:50%;}
+
+
+  @media only screen and (max-width: 600px) {
+ 
+    #btn_more{
+    position: absolute;
+    visibility: hidden;
+    justify-content: center;
+    display: flex;
+    top:350;
+    left: 90;
+
+  }
+}
+ #Table_district td:nth-child(1){
+     
+     color: gray;}
+  
+ #Table_district td:nth-child(2){
+     text-align: center;
+     color: blue;
+ }
+ #Table_district td:nth-child(3){
+     text-align: center;
+ }
+ #Table_district td:nth-child(4){
+     text-align: center;
+     color: red;
+ }
+#Table_district td:nth-child(5){
+     text-align: center;
+     color: green;
+ }
+
+
+
+#loader{
+  position: fixed;
+  top:50%;
+  left: 35%;
+  z-index: 9999;
+  display: none;
+
+  
+}
+
+.no_internet{
+  display: none;
+  position: fixed;
+  top:-100;
+  left: 0;
+  max-width: 100%;
+
+  z-index: 999;
+
+  
+}
+#btn_error{
+  display: none;
+  position:fixed;
+   top:80%;
+   left:35%;
+
+  z-index: 9999;
+  
+
+}
